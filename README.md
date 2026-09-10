@@ -42,11 +42,3 @@ nos arquivos de resultado é exatamente o que os modelos responderam na última 
 Como os modelos de linguagem têm componente probabilístico, pequenas variações entre execuções são esperadas —
 isso é normal e não indica erro.
 
-## Publicando no Git
-
-```bash
-git remote add origin <URL_DO_SEU_REPOSITORIO>
-git push -u origin main
-```
-
-Confira que `.env` **não** aparece em `git status` antes de qualquer commit adicional.
